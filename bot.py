@@ -19,7 +19,7 @@ Client = discord.Client()
 bot = commands.Bot(command_prefix=BOT_PREFIX)
 
 # Add yer cogs here pal
-extensions = []
+extensions = ['cogs.adminCommands', 'cogs.miscCommands', 'cogs.musicCommands', 'cogs.news']
 
 
 # Some information to display in terminal to display bot status
